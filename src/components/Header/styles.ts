@@ -4,17 +4,16 @@ import { cores } from "../../styles";
 export const HeaderBar = styled.header`
   background-color: ${cores.rosaclaro};
   position: absolute;
-  width: 2032px;
-  height: 384px;
+  width: 1024px;
+  height: 380px;
   left: 0px;
-  top: -24px;
   align-items: center;
 `;
 
 export const Ilogo = styled.image`
   position: absolute;
   width: 126px;
-  height: 58px;
+  height: 60px;
   left: 622px;
   top: 40px;
 `;
@@ -22,9 +21,9 @@ export const Ilogo = styled.image`
 export const Text = styled.p`
   position: absolute;
   width: 539px;
-  height: 84px;
-  left: 414px;
-  top: 236px;
+  height: 60px;
+  left: 622px;
+  top: 80px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
