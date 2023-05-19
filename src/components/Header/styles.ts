@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { cores } from '../../styles'
+import styled from "styled-components";
+import { cores } from "../../styles";
 
 export const HeaderBar = styled.header`
   background-color: ${cores.rosaclaro};
@@ -9,7 +9,7 @@ export const HeaderBar = styled.header`
   left: 0px;
   top: -24px;
   align-items: center;
-`
+`;
 
 export const Ilogo = styled.image`
   position: absolute;
@@ -17,19 +17,19 @@ export const Ilogo = styled.image`
   height: 58px;
   left: 622px;
   top: 40px;
-`
+`;
 
 export const Text = styled.p`
+  position: absolute;
+  width: 539px;
   height: 84px;
-  width: 540px;
   left: 414px;
   top: 236px;
-  border-radius: nullpx;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   color: ${cores.rosa};
-`
+`;
