@@ -13,41 +13,30 @@ export const Card = styled.div`
   }
 `
 export const Botao = styled.button`
-  position: absolute;
-  width: 82px;
-  height: 24px;
-  left: 732px;
-  top: 806px;
   background-color: ${cores.rosa};
-  color: ${cores.branco};
+  border: none;
+  width: 100%;
+  color: ${cores.preto};
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  cursor: pointer;
+  padding: 4px 0;
 `
 
 export const Titulo = styled.h3`
-  position: absolute;
-  width: 92px;
-  height: 21px;
-  left: 180px;
-  top: 665px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  color: ${cores.rosa};
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 8px;
 `
 
 export const Descricao = styled.p`
-  position: absolute;
-  width: 456px;
-  height: 88px;
-  left: 180px;
-  top: 702px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: ${cores.rosa};
+  display: block;
+  margin-top: 16px;
 `
 
 export const Infos = styled.div`
