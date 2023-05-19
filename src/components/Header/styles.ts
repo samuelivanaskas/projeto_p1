@@ -10,11 +10,6 @@ export const HeaderBar = styled.header`
   align-items: center;
 `;
 
-export const Ilogo = styled.image`
-  position: absolute;
-  background-color: ${cores.rosaclaro};
-`;
-
 export const Text = styled.p`
   position: relative;
   font-size: 32px;
