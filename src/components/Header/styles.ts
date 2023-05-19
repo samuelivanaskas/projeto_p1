@@ -20,9 +20,9 @@ export const Ilogo = styled.image`
 
 export const Text = styled.p`
   position: absolute;
-  width: 539px;
+  width: 200px;
   height: 60px;
-  left: 622px;
+  left: 22px;
   top: 80px;
   font-family: "Roboto";
   font-style: normal;
